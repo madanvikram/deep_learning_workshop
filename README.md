@@ -14,7 +14,7 @@ Instructions for getting started:
         - Expand Connection and choose Auth, select your .ppk file
         - Expand Connection > SSH, choose Tunnels, specify Source Port: `8888`, Destination: `localhost:8888`
         - Choose Add and Open
-3. Clone aws-ai-bootcamp-labs github repository `git clone https://github.com/madanvikram/deep-learning-workshop`
+3. Clone deep_learning_workshop github repository `git clone https://github.com/madanvikram/deep_learning_workshop`
 4. Start jupyter notebook: `nohup jupyter notebook &`
 5. `tail nohup.out` to get the login token
     * look for `http://localhost:8888/?token=<your_login_token>`
